@@ -10,6 +10,10 @@ class SortableGridViewAsset extends AssetBundle {
     public $js = [
         'js/jquery.ui.touch-punch.min.js',
         'js/sortable-grid-view.js',
+        'js/bootstrap.js',
+    ];
+    public $css = [
+        'css/bootstrap.css',
     ];
     public $depends = [
         'yii\web\JqueryAsset',
